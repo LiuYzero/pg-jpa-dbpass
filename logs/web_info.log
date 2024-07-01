@@ -1,0 +1,514 @@
+2024-07-01 22:12:56.165 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 6516 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:12:56.167 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:12:56.206 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:12:56.206 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:12:56.812 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 22:12:56.830 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-07-01 22:12:57.036 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=36e6ec1c-c2e1-3dfa-9d65-0db82cb2122f
+2024-07-01 22:12:57.537 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:12:57.547 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:12:57.549 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:12:57.549 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:12:57.587 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:12:57.587 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1381 ms
+2024-07-01 22:12:57.642 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:12:57.655 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:13:43.478 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 30340 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:13:43.480 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:13:43.527 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:13:43.527 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:13:44.131 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 22:13:44.152 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-07-01 22:13:44.365 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=36e6ec1c-c2e1-3dfa-9d65-0db82cb2122f
+2024-07-01 22:13:44.886 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:13:44.894 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:13:44.896 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:13:44.897 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:13:44.935 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:13:44.935 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1407 ms
+2024-07-01 22:13:44.991 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:13:45.003 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:14:25.522 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 33668 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:14:25.524 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:14:25.570 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:14:25.570 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:14:26.178 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 22:14:26.195 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-07-01 22:14:26.388 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=36e6ec1c-c2e1-3dfa-9d65-0db82cb2122f
+2024-07-01 22:14:26.887 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:14:26.896 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:14:26.897 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:14:26.897 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:14:26.935 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:14:26.935 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1364 ms
+2024-07-01 22:14:26.989 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:14:27.004 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:15:52.555 [main] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 19604 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:15:52.558 [main] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:15:53.197 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f84fe331-4431-350c-8c1f-4523507faa65
+2024-07-01 22:15:53.466 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:15:53.476 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:15:53.478 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:15:53.478 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:15:53.526 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:15:53.526 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 931 ms
+2024-07-01 22:15:54.924 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 22:15:55.958 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 22:15:55.977 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-07-01 22:15:56.020 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-07-01 22:15:56.206 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-07-01 22:15:56.212 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 22:15:56.231 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-07-01 22:15:56.231 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-07-01 22:15:56.231 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-07-01 22:15:56.231 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2024-07-01 22:15:56.231 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-07-01 22:15:56.231 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-07-01 22:15:56.231 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-07-01 22:15:56.661 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2024-07-01 22:15:56.663 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-07-01 22:15:56.666 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-01 22:15:56.670 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1719843356670 with initial instances count: 3
+2024-07-01 22:15:56.672 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application PG-JPS-DBPAAS with eureka with status UP
+2024-07-01 22:15:56.672 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719843356672, current=UP, previous=STARTING]
+2024-07-01 22:15:56.673 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676: registering service...
+2024-07-01 22:15:56.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:15:56.692 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 16676 (http) with context path '/'
+2024-07-01 22:15:56.694 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 16676
+2024-07-01 22:15:56.711 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676 - registration status: 204
+2024-07-01 22:15:57.707 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 22:15:57.713 [main] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Started PgJpaDbpaasApplication in 6.645 seconds (process running for 6.951)
+2024-07-01 22:16:40.201 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application PG-JPS-DBPAAS with eureka with status DOWN
+2024-07-01 22:16:40.202 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719843400202, current=DOWN, previous=UP]
+2024-07-01 22:16:40.202 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676: registering service...
+2024-07-01 22:16:40.211 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-07-01 22:16:40.216 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676 - registration status: 204
+2024-07-01 22:16:40.217 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-07-01 22:16:40.228 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676 - deregister  status: 200
+2024-07-01 22:16:40.231 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-07-01 22:16:44.494 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 23100 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:16:44.496 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:16:44.540 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:16:44.540 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:16:45.284 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3992fdb0-a4db-3f81-8a5c-9837f3dc5f22
+2024-07-01 22:16:45.705 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:16:45.715 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:16:45.716 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:16:45.717 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:16:45.758 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:16:45.758 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1218 ms
+2024-07-01 22:16:46.240 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-01 22:16:47.267 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 22:16:48.289 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 22:16:48.307 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-07-01 22:16:48.356 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-07-01 22:16:48.453 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-07-01 22:16:48.457 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 22:16:48.473 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-07-01 22:16:48.474 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-07-01 22:16:48.474 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-07-01 22:16:48.474 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2024-07-01 22:16:48.474 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-07-01 22:16:48.474 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-07-01 22:16:48.474 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-07-01 22:16:48.894 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2024-07-01 22:16:48.895 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-07-01 22:16:48.897 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-01 22:16:48.903 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1719843408902 with initial instances count: 3
+2024-07-01 22:16:48.904 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application PG-JPS-DBPAAS with eureka with status UP
+2024-07-01 22:16:48.905 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719843408905, current=UP, previous=STARTING]
+2024-07-01 22:16:48.907 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:16:48.907 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676: registering service...
+2024-07-01 22:16:48.924 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 16676 (http) with context path '/'
+2024-07-01 22:16:48.924 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 16676
+2024-07-01 22:16:48.950 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676 - registration status: 204
+2024-07-01 22:16:49.929 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 22:16:49.935 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Started PgJpaDbpaasApplication in 6.955 seconds (process running for 7.374)
+2024-07-01 22:21:48.485 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 22:26:48.496 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 22:31:48.510 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 22:36:48.523 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 22:41:48.534 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 22:46:48.538 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 22:47:51.986 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application PG-JPS-DBPAAS with eureka with status DOWN
+2024-07-01 22:47:51.987 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719845271987, current=DOWN, previous=UP]
+2024-07-01 22:47:51.987 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676: registering service...
+2024-07-01 22:47:51.996 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-07-01 22:47:52.105 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676 - registration status: 204
+2024-07-01 22:47:52.106 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-07-01 22:47:52.112 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPS-DBPAAS/localhost:pg-jps-dbpaas:16676 - deregister  status: 200
+2024-07-01 22:47:52.115 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-07-01 22:48:17.164 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 35416 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:48:17.165 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:48:17.209 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:48:17.209 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:48:17.944 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=14a82ad2-b54f-3f75-a9bb-1ad5db6544ea
+2024-07-01 22:48:18.356 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:48:18.369 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:48:18.370 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:48:18.370 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:48:18.409 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:48:18.409 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1199 ms
+2024-07-01 22:48:18.460 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:48:18.476 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:48:46.473 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 18512 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:48:46.475 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:48:46.536 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:48:46.536 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:48:47.273 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=14a82ad2-b54f-3f75-a9bb-1ad5db6544ea
+2024-07-01 22:48:47.675 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:48:47.690 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:48:47.691 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:48:47.691 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:48:47.727 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:48:47.728 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1190 ms
+2024-07-01 22:48:47.777 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:48:47.788 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:50:26.731 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 34888 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:50:26.732 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:50:26.772 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:50:26.772 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:50:27.499 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=14a82ad2-b54f-3f75-a9bb-1ad5db6544ea
+2024-07-01 22:50:27.896 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:50:27.906 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:50:27.907 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:50:27.907 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:50:27.944 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:50:27.945 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1173 ms
+2024-07-01 22:50:27.994 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:50:28.008 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:54:50.560 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 27532 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:54:50.562 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:54:50.611 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:54:50.612 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:54:51.060 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 22:54:51.177 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:56:08.613 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 4712 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:56:08.616 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:56:08.677 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:56:08.677 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:56:09.122 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 22:56:09.228 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 1 JPA repository interface.
+2024-07-01 22:56:09.542 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a535367c-7e75-36a2-b90c-99bae4671fad
+2024-07-01 22:56:09.963 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:56:09.974 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:56:09.975 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:56:09.975 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:56:10.010 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:56:10.010 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1332 ms
+2024-07-01 22:56:10.079 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:56:10.102 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:58:06.344 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 38264 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:58:06.347 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:58:06.396 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:58:06.396 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:58:07.129 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=14a82ad2-b54f-3f75-a9bb-1ad5db6544ea
+2024-07-01 22:58:07.551 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:58:07.559 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:58:07.562 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:58:07.562 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:58:07.599 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:58:07.600 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1202 ms
+2024-07-01 22:58:07.647 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:58:07.661 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:58:22.226 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 15636 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:58:22.228 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:58:22.281 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:58:22.281 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:58:22.988 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=df98c2dc-771b-37b7-bc00-0dfc5dfaf846
+2024-07-01 22:58:23.372 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:58:23.380 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:58:23.381 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:58:23.381 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:58:23.418 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:58:23.418 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1136 ms
+2024-07-01 22:58:23.466 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:58:23.482 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:58:33.198 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 36132 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:58:33.199 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:58:33.257 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:58:33.257 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:58:33.708 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 22:58:33.816 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+2024-07-01 22:58:34.132 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a535367c-7e75-36a2-b90c-99bae4671fad
+2024-07-01 22:58:34.553 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:58:34.565 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:58:34.567 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:58:34.567 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:58:34.611 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:58:34.612 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1354 ms
+2024-07-01 22:58:34.676 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:58:34.694 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 22:58:55.558 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 25628 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 22:58:55.560 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 22:58:55.615 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 22:58:55.615 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 22:58:56.039 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 22:58:56.147 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2024-07-01 22:58:56.458 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a535367c-7e75-36a2-b90c-99bae4671fad
+2024-07-01 22:58:56.852 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 22:58:56.861 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 22:58:56.863 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 22:58:56.863 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 22:58:56.901 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 22:58:56.901 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1286 ms
+2024-07-01 22:58:56.963 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-01 22:58:56.986 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 23:02:39.299 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 17792 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 23:02:39.301 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 23:02:39.355 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 23:02:39.356 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 23:02:39.777 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 23:02:39.874 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2024-07-01 23:02:40.228 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=fedc1c9e-74a0-37cd-922b-ffe4111559b8
+2024-07-01 23:02:40.690 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 23:02:40.699 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 23:02:40.700 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 23:02:40.700 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 23:02:40.739 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 23:02:40.739 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms
+2024-07-01 23:02:40.875 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-01 23:02:40.935 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-01 23:02:40.962 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-01 23:02:41.186 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-01 23:02:41.208 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-01 23:02:41.439 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@385b857f
+2024-07-01 23:02:41.440 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-01 23:02:42.054 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-01 23:02:42.118 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-01 23:02:42.727 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-01 23:02:43.755 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:02:44.782 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:02:44.799 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-07-01 23:02:44.857 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-07-01 23:02:44.944 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-07-01 23:02:44.948 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 23:02:44.971 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-07-01 23:02:44.971 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-07-01 23:02:44.971 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-07-01 23:02:44.971 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2024-07-01 23:02:44.971 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-07-01 23:02:44.971 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-07-01 23:02:44.971 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-07-01 23:02:45.323 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2024-07-01 23:02:45.326 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-07-01 23:02:45.331 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-01 23:02:45.336 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1719846165334 with initial instances count: 3
+2024-07-01 23:02:45.338 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application PG-JPA-DBPAAS with eureka with status UP
+2024-07-01 23:02:45.338 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719846165338, current=UP, previous=STARTING]
+2024-07-01 23:02:45.340 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-16676"]
+2024-07-01 23:02:45.340 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676: registering service...
+2024-07-01 23:02:45.356 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 16676 (http) with context path '/'
+2024-07-01 23:02:45.357 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 16676
+2024-07-01 23:02:45.381 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - registration status: 204
+2024-07-01 23:02:46.360 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:02:46.369 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Started PgJpaDbpaasApplication in 8.583 seconds (process running for 9.005)
+2024-07-01 23:02:50.074 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=-6534586659507667983, content='2024-07-01'}
+2024-07-01 23:02:50.074 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id -6534586659507667983
+2024-07-01 23:02:55.016 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=4464946291444333585, content='2024-07-01'}
+2024-07-01 23:02:55.016 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 4464946291444333585
+2024-07-01 23:03:00.024 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=5786320414312115730, content='2024-07-01'}
+2024-07-01 23:03:00.024 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 5786320414312115730
+2024-07-01 23:03:05.020 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=5366215132891101270, content='2024-07-01'}
+2024-07-01 23:03:05.020 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 5366215132891101270
+2024-07-01 23:03:10.018 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=4816508771105552365, content='2024-07-01'}
+2024-07-01 23:03:10.018 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 4816508771105552365
+2024-07-01 23:03:15.023 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=82386791405995637, content='2024-07-01'}
+2024-07-01 23:03:15.023 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 82386791405995637
+2024-07-01 23:03:20.019 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=5688982531845467117, content='2024-07-01'}
+2024-07-01 23:03:20.019 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 5688982531845467117
+2024-07-01 23:03:25.025 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=-7917553097888286888, content='2024-07-01'}
+2024-07-01 23:03:25.025 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id -7917553097888286888
+2024-07-01 23:03:30.028 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=-7417750554449172320, content='2024-07-01'}
+2024-07-01 23:03:30.029 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id -7417750554449172320
+2024-07-01 23:03:35.017 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=-7096380527097578553, content='2024-07-01'}
+2024-07-01 23:03:35.018 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id -7096380527097578553
+2024-07-01 23:03:40.024 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=3016778889833507795, content='2024-07-01'}
+2024-07-01 23:03:40.024 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 3016778889833507795
+2024-07-01 23:03:44.355 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application PG-JPA-DBPAAS with eureka with status DOWN
+2024-07-01 23:03:44.355 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719846224355, current=DOWN, previous=UP]
+2024-07-01 23:03:44.355 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676: registering service...
+2024-07-01 23:03:44.365 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-01 23:03:44.368 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-01 23:03:44.379 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-01 23:03:44.380 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-07-01 23:03:44.476 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - registration status: 204
+2024-07-01 23:03:44.477 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-07-01 23:03:44.482 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - deregister  status: 200
+2024-07-01 23:03:44.487 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-07-01 23:04:16.337 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 33532 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 23:04:16.339 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 23:04:16.394 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 23:04:16.394 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 23:04:16.831 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 23:04:16.931 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-07-01 23:04:17.282 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=fedc1c9e-74a0-37cd-922b-ffe4111559b8
+2024-07-01 23:04:17.740 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 23:04:17.750 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 23:04:17.751 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 23:04:17.751 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 23:04:17.787 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 23:04:17.788 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1392 ms
+2024-07-01 23:04:17.940 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-01 23:04:17.994 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-01 23:04:18.022 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-01 23:04:18.269 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-01 23:04:18.297 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-01 23:04:18.540 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@15c129c4
+2024-07-01 23:04:18.542 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-01 23:04:19.200 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-01 23:04:19.232 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-01 23:04:19.834 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-01 23:04:20.862 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:04:21.892 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:04:21.909 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-07-01 23:04:21.970 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-07-01 23:04:22.060 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-07-01 23:04:22.064 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 23:04:22.085 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-07-01 23:04:22.085 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-07-01 23:04:22.085 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-07-01 23:04:22.085 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2024-07-01 23:04:22.085 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-07-01 23:04:22.085 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-07-01 23:04:22.085 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-07-01 23:04:22.407 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2024-07-01 23:04:22.409 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-07-01 23:04:22.412 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-01 23:04:22.420 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1719846262420 with initial instances count: 3
+2024-07-01 23:04:22.422 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application PG-JPA-DBPAAS with eureka with status UP
+2024-07-01 23:04:22.423 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719846262423, current=UP, previous=STARTING]
+2024-07-01 23:04:22.424 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-16676"]
+2024-07-01 23:04:22.425 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676: registering service...
+2024-07-01 23:04:22.440 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 16676 (http) with context path '/'
+2024-07-01 23:04:22.441 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 16676
+2024-07-01 23:04:22.466 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - registration status: 204
+2024-07-01 23:04:23.445 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:04:23.454 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Started PgJpaDbpaasApplication in 8.63 seconds (process running for 9.081)
+2024-07-01 23:04:25.074 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=12, content='2024-07-01'}
+2024-07-01 23:04:25.074 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 12
+2024-07-01 23:04:30.015 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=13, content='2024-07-01'}
+2024-07-01 23:04:30.017 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 13
+2024-07-01 23:04:35.020 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=14, content='2024-07-01'}
+2024-07-01 23:04:35.020 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 14
+2024-07-01 23:04:40.013 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=15, content='2024-07-01'}
+2024-07-01 23:04:40.014 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 15
+2024-07-01 23:04:45.015 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=16, content='2024-07-01'}
+2024-07-01 23:04:45.016 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 16
+2024-07-01 23:04:50.020 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=17, content='2024-07-01'}
+2024-07-01 23:04:50.021 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 17
+2024-07-01 23:04:55.021 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=18, content='2024-07-01'}
+2024-07-01 23:04:55.022 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 18
+2024-07-01 23:05:00.026 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=19, content='2024-07-01'}
+2024-07-01 23:05:00.026 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 19
+2024-07-01 23:05:05.025 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=20, content='2024-07-01'}
+2024-07-01 23:05:05.025 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 20
+2024-07-01 23:05:10.015 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=21, content='2024-07-01'}
+2024-07-01 23:05:10.015 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 21
+2024-07-01 23:05:12.736 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application PG-JPA-DBPAAS with eureka with status DOWN
+2024-07-01 23:05:12.736 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719846312736, current=DOWN, previous=UP]
+2024-07-01 23:05:12.736 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676: registering service...
+2024-07-01 23:05:12.746 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-01 23:05:12.749 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-01 23:05:12.762 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-01 23:05:12.763 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-07-01 23:05:12.856 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - registration status: 204
+2024-07-01 23:05:12.858 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-07-01 23:05:12.864 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - deregister  status: 200
+2024-07-01 23:05:12.868 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-07-01 23:05:30.098 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Starting PgJpaDbpaasApplication using Java 21.0.2 with PID 36140 (D:\x\pg-jpa-dbpaas\target\classes started by LiuYang in D:\x\pg-jpa-dbpaas)
+2024-07-01 23:05:30.101 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-01 23:05:30.143 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-01 23:05:30.143 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-01 23:05:30.743 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-01 23:05:30.851 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2024-07-01 23:05:31.053 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=dfbd5b38-ada8-331d-835b-66609a2cfc4e
+2024-07-01 23:05:31.518 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 16676 (http)
+2024-07-01 23:05:31.527 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-16676"]
+2024-07-01 23:05:31.528 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-01 23:05:31.528 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 23:05:31.565 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-01 23:05:31.565 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1422 ms
+2024-07-01 23:05:31.704 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-01 23:05:31.772 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-01 23:05:31.800 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-01 23:05:32.038 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-01 23:05:32.061 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-01 23:05:32.301 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@776ceb46
+2024-07-01 23:05:32.303 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-01 23:05:32.936 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-01 23:05:32.973 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-01 23:05:33.558 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-01 23:05:34.576 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:05:35.608 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:05:35.627 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-07-01 23:05:35.689 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-07-01 23:05:35.778 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-07-01 23:05:35.781 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-07-01 23:05:35.804 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-07-01 23:05:35.804 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-07-01 23:05:35.804 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-07-01 23:05:35.804 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2024-07-01 23:05:35.804 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-07-01 23:05:35.804 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-07-01 23:05:35.804 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-07-01 23:05:36.137 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2024-07-01 23:05:36.139 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-07-01 23:05:36.141 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-01 23:05:36.144 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1719846336144 with initial instances count: 3
+2024-07-01 23:05:36.147 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application PG-JPA-DBPAAS with eureka with status UP
+2024-07-01 23:05:36.147 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719846336147, current=UP, previous=STARTING]
+2024-07-01 23:05:36.149 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676: registering service...
+2024-07-01 23:05:36.149 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-16676"]
+2024-07-01 23:05:36.164 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 16676 (http) with context path '/'
+2024-07-01 23:05:36.165 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 16676
+2024-07-01 23:05:36.193 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - registration status: 204
+2024-07-01 23:05:37.173 [restartedMain] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2024-07-01 23:05:37.182 [restartedMain] INFO  c.s.pg_jpa_dbpaas.PgJpaDbpaasApplication - Started PgJpaDbpaasApplication in 8.588 seconds (process running for 8.978)
+2024-07-01 23:05:40.061 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=22, content='2024-07-01'}
+2024-07-01 23:05:40.062 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 22
+2024-07-01 23:05:45.013 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=23, content='2024-07-01'}
+2024-07-01 23:05:45.013 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 23
+2024-07-01 23:05:50.023 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=24, content='2024-07-01'}
+2024-07-01 23:05:50.023 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 24
+2024-07-01 23:05:55.018 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=25, content='2024-07-01'}
+2024-07-01 23:05:55.018 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 25
+2024-07-01 23:06:00.016 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=26, content='2024-07-01'}
+2024-07-01 23:06:00.016 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 26
+2024-07-01 23:06:05.015 [scheduling-1] INFO  c.springbootwork.pg_jpa_dbpaas.service.TestService - save ContentEntity{id=27, content='2024-07-01'}
+2024-07-01 23:06:05.015 [scheduling-1] INFO  c.s.pg_jpa_dbpaas.scheduler.TestSchedule - save id 27
+2024-07-01 23:06:07.843 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application PG-JPA-DBPAAS with eureka with status DOWN
+2024-07-01 23:06:07.843 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1719846367843, current=DOWN, previous=UP]
+2024-07-01 23:06:07.843 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676: registering service...
+2024-07-01 23:06:07.853 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-01 23:06:07.855 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-01 23:06:07.867 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-01 23:06:07.868 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-07-01 23:06:07.953 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - registration status: 204
+2024-07-01 23:06:07.955 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-07-01 23:06:07.961 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_PG-JPA-DBPAAS/localhost:pg-jpa-dbpaas:16676 - deregister  status: 200
+2024-07-01 23:06:07.965 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

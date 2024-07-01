@@ -1,0 +1,209 @@
+2024-07-01 22:12:57.670 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-07-01 22:13:45.027 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-07-01 22:14:27.031 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-07-01 22:48:18.495 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' in your configuration.
+
+2024-07-01 22:48:47.806 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' in your configuration.
+
+2024-07-01 22:50:28.027 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.springbootwork.pg_jpa_dbpaas.service.TestService required a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' in your configuration.
+
+2024-07-01 22:54:51.194 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'testRepository', defined in com.springbootwork.pg_jpa_dbpaas.repository.TestRepository defined in @EnableJpaRepositories declared on PgJpaDbpaasApplication, could not be registered. A bean with that name has already been defined in com.springbootwork.pg_jpa_dbpaas.repository.TestRepository defined in @EnableJpaRepositories declared on PgJpaDbpaasApplication and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-07-01 22:56:10.121 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.springbootwork.pg_jpa_dbpaas.service.TestService required a bean named 'entityManagerFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
+
+2024-07-01 22:58:07.679 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.springbootwork.pg_jpa_dbpaas.service.TestService required a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' in your configuration.
+
+2024-07-01 22:58:23.499 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.springbootwork.pg_jpa_dbpaas.service.TestService required a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springbootwork.pg_jpa_dbpaas.repository.TestRepository' in your configuration.
+
+2024-07-01 22:58:34.716 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.springbootwork.pg_jpa_dbpaas.service.TestService required a bean named 'entityManagerFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
+
+2024-07-01 22:58:57.005 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.springbootwork.pg_jpa_dbpaas.service.TestService required a bean named 'entityManagerFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
+

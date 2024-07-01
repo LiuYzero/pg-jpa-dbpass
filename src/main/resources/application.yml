@@ -1,0 +1,28 @@
+server:
+  port: 16676
+logging:
+  config: classpath:logback-spring.xml
+spring:
+  application:
+    name: pg-jpa-dbpaas
+  datasource:
+    url: jdbc:postgresql://192.168.1.112:5432/paas_db
+    username: paas
+    password: paas
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.113:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
