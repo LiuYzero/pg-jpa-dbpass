@@ -25,4 +25,12 @@ public class TestService {
         LOGGER.info("save {}", contentEntity);
         return String.valueOf(contentEntity.getId());
     }
+
+    public String saveContent(String content){
+        ContentEntity contentEntity = new ContentEntity();
+        contentEntity.setContent(content);
+        repository.save(contentEntity);
+        LOGGER.info("save {}", contentEntity);
+        return String.valueOf(contentEntity.getId());
+    }
 }

@@ -13,7 +13,7 @@ public class TestSchedule {
     @Resource
     TestService service;
 
-    @Scheduled(cron="0/5 * *  * * ? ")
+    @Scheduled(cron="59 * *  * * ? ")
     public void saveDateToTest(){
         String id = service.saveContent();
         LOGGER.info("save id {}", id);

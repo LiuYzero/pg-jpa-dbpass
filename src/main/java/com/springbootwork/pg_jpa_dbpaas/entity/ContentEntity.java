@@ -12,7 +12,8 @@ public class ContentEntity {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name="content")
+//    @Lob
+    @Column(columnDefinition = "text")
     private String content;
 
     public Long getId() {
