@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Random;
 
 @Service
@@ -19,7 +20,7 @@ public class TestService {
 
     public String saveContent(){
         ContentEntity contentEntity = new ContentEntity();
-        contentEntity.setContent(LocalDate.now().toString());
+        contentEntity.setContent(LocalDateTime.now().toString());
 //        contentEntity.setId(new Random().nextLong());
         repository.save(contentEntity);
         LOGGER.info("save {}", contentEntity);

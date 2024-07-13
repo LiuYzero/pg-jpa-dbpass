@@ -1,5 +1,7 @@
 package com.springbootwork.pg_jpa_dbpaas.service.rss;
 
+import com.springbootwork.pg_jpa_dbpaas.entity.CCTVNewsEntity;
+import com.springbootwork.pg_jpa_dbpaas.repository.CCTVNewsRepository;
 import com.springbootwork.pg_jpa_dbpaas.service.TestService;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -21,41 +23,82 @@ import java.util.List;
  */
 @Service
 public class CCTVNewsServices {
-
     private static final Logger LOGGER = LoggerFactory.getLogger(CCTVNewsServices.class);
-
     String cctvNewRssUrl = "http://mrxwlb.com/feed/";
-
     @Autowired
     RestTemplate restTemplate;
-
     @Autowired
     TestService service;
+    @Autowired
+    CCTVNewsRepository newsRepository;
 
-    public Boolean recordNews(){
+    public void work(){
+        // 如果昨天的新闻尚未记录，就记录
+        if(!chechYesterdayNews()){
+            LOGGER.info("will record yesterday news.");
+            recordNews();
+            LOGGER.info("recorded yesterday news.");
+        }else{
+            LOGGER.info("yesterday news has been recorded.");
+        }
+    }
+
+    public Boolean chechYesterdayNews(){
+        // 查询是否已记录昨天的新闻数据
+        List<CCTVNewsEntity> cctvNewsEntityList = newsRepository.findAllByDate(LocalDate.now().minusDays(1l));
+        LOGGER.info("query yesterday news, find {} record.", cctvNewsEntityList.size());
+        if(cctvNewsEntityList.isEmpty()){
+            return Boolean.FALSE;
+        }
+        return Boolean.TRUE;
+    }
+
+    public void recordNews(){
+        String news = getCCTVNews();
+        List<String> newList = rssParse(news);
+        if(newList.isEmpty()){
+            LOGGER.warn("news parse failed");
+            return;
+        }
+        save2Table(newList);
+
+        LOGGER.info("record new success");
+    }
+
+    public Boolean recordNewsTest(){
         String news = getCCTVNews();
         List<String> newList = rssParse(news);
         if(newList.isEmpty()){
             LOGGER.warn("news is empty at today");
             return Boolean.FALSE;
         }
-        save2Table(newList);
+        save2TableTest(newList);
 
         LOGGER.info("record new success");
         return Boolean.TRUE;
     }
 
     public boolean save2Table(List<String> newList){
+        LocalDate yesterdayDate = LocalDate.now().minusDays(1l);
         for(String content : newList){
-            service.saveContent(content);
+//            service.saveContent(content);
+            CCTVNewsEntity entity = new CCTVNewsEntity();
+            entity.setContent(content);
+            entity.setDate(yesterdayDate);
+            newsRepository.save(entity);
         }
         return Boolean.TRUE;
     }
 
+    public void save2TableTest(List<String> newList){
+        for(String content : newList){
+            service.saveContent(content);
+        }
+    }
+
     public List<String> rssParse(String news){
         List<String> newList = new ArrayList<>();
-        String content = news;
-        if(content.isBlank()){
+        if(news.isBlank()){
             return newList;
         }
 
@@ -104,7 +147,7 @@ public class CCTVNewsServices {
             LOGGER.info(str);
             newList.add(str);
         }
-        if(!isToday(newList.get(0).substring(0,8))){
+        if(!isYesterday(newList.get(0).substring(0,8))){
             newList = List.of();
         }
         LOGGER.info("done of parse news");
@@ -130,6 +173,25 @@ public class CCTVNewsServices {
             return Boolean.TRUE;
         } else {
             LOGGER.info("is not today");
+            return Boolean.FALSE;
+        }
+    }
+
+    private boolean isYesterday(String dateStr){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd");
+
+        // 将字符串转换为LocalDate对象
+        LocalDate targetDate = LocalDate.parse(dateStr, formatter);
+
+        // 获取昨天日期
+        LocalDate yesterday = LocalDate.now().minusDays(1l);
+
+        // 比较日期
+        if (targetDate.equals(yesterday)) {
+            LOGGER.info("is yesterday");
+            return Boolean.TRUE;
+        } else {
+            LOGGER.info("is not yesterday");
             return Boolean.FALSE;
         }
     }

@@ -1,10 +1,10 @@
 server:
-  port: 16676
+  port: 16680
 logging:
   config: classpath:logback-spring.xml
 spring:
   application:
-    name: pg-jpa-dbpaas
+    name: pg-jpa-dbpaas-scheduler
   datasource:
     url: jdbc:postgresql://192.168.1.112:5432/paas_db
     username: paas

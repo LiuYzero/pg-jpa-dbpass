@@ -1,6 +1,7 @@
 package com.springbootwork.pg_jpa_dbpaas.scheduler;
 
 import com.springbootwork.pg_jpa_dbpaas.service.TestService;
+import com.springbootwork.pg_jpa_dbpaas.service.rss.CCTVNewsServices;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +14,18 @@ public class TestSchedule {
     @Resource
     TestService service;
 
+    @Resource
+    CCTVNewsServices cctvNewsServices;
+
     @Scheduled(cron="59 * *  * * ? ")
     public void saveDateToTest(){
         String id = service.saveContent();
         LOGGER.info("save id {}", id);
+    }
+
+    @Scheduled(cron = "0 50 0/2 * * ? ")
+    public void recordCCTVNewsScheduled(){
+        cctvNewsServices.work();
+        LOGGER.info("executed recordCCTVNewsScheduled");
     }
 }
