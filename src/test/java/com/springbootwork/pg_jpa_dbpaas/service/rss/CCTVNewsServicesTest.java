@@ -10,12 +10,16 @@ class CCTVNewsServicesTest {
     @Autowired
     CCTVNewsServices services;
 
-//    @Test
-//    void rssParse() {
-//        Boolean recordFlag = services.recordNewsTest();
-//        System.out.println("recordFlag = " + recordFlag);
-//
-//        Assert.isTrue(recordFlag, "recordFlag = " + recordFlag);
-//    }
+    @Test
+    void rssParse() {
+        Boolean recordFlag = services.recordNewsTest();
+
+//        Boolean recordFlag = true;
+//        services.recordNews();
+
+        System.out.println("recordFlag = " + recordFlag);
+
+        Assert.isTrue(recordFlag, "recordFlag = " + recordFlag);
+    }
 
 }

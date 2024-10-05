@@ -3,6 +3,9 @@ package com.springbootwork.pg_jpa_dbpaas.service.rss;
 import com.springbootwork.pg_jpa_dbpaas.entity.CCTVNewsEntity;
 import com.springbootwork.pg_jpa_dbpaas.repository.CCTVNewsRepository;
 import com.springbootwork.pg_jpa_dbpaas.service.TestService;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -13,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -154,8 +158,28 @@ public class CCTVNewsServices {
         return newList;
     }
 
-    public String getCCTVNews() {
-        return restTemplate.getForObject(cctvNewRssUrl, String.class);
+//    public String getCCTVNews() {
+//        return restTemplate.getForObject(cctvNewRssUrl, String.class);
+//    }
+
+    public String getCCTVNews(){
+        OkHttpClient client = new OkHttpClient().newBuilder()
+                .build();
+        Request request = new Request.Builder()
+                .url("http://mrxwlb.com/feed/")
+                .method("GET", null)
+                .addHeader("Cookie", "security_session_verify=1e5eaf6ecb787e551ce8e6f47663ade4")
+                .build();
+        String content = "";
+        try {
+            Response response = client.newCall(request).execute();
+            content = response.body().string();
+        } catch (IOException e) {
+//            throw new RuntimeException(e);
+            LOGGER.warn("okhttp execute failed.");
+            LOGGER.warn("{}", e);
+        }
+        return content;
     }
 
     private boolean isToday(String dateStr){
