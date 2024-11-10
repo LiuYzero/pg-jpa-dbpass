@@ -8,29 +8,29 @@ import java.time.LocalDate;
 
 @Data
 @Entity
-@Table(name="videos_captions")
+@Table(name="video_caption")
 public class VideoCaptions {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(columnDefinition = "text")
-    private String name;
+    private String video;
 
     @Column(columnDefinition = "text")
-    private String content;
+    private String caption;
 
     @Column(columnDefinition = "text", name="store_path")
     private String storePath;
 
-    @Column(columnDefinition = "date")
+    @Column(columnDefinition = "date",name = "created_at")
     private LocalDate date;
 
     @Override
     public String toString() {
         return "VideoCaptions{" +
                 "id=" + id +
-                ", content='" + content + '\'' +
+                ", content='" + caption + '\'' +
                 ", storePath='" + storePath + '\'' +
                 ", date=" + date +
                 '}';
