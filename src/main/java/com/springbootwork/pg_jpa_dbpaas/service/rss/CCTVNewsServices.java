@@ -36,6 +36,14 @@ public class CCTVNewsServices {
     @Autowired
     CCTVNewsRepository newsRepository;
 
+
+    public List<CCTVNewsEntity> findAllByDate(LocalDate date){
+        List<CCTVNewsEntity> cctvNewsEntityList = newsRepository.findAllByDate(date);
+        LOGGER.info("query yesterday news, find {} record.", cctvNewsEntityList.size());
+        return cctvNewsEntityList;
+    }
+
+
     public void work(){
         // 如果昨天的新闻尚未记录，就记录
         if(!chechYesterdayNews()){

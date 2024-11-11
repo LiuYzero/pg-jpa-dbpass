@@ -26,6 +26,46 @@ public class VideoCaptions {
     @Column(columnDefinition = "date",name = "created_at")
     private LocalDate date;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getVideo() {
+        return video;
+    }
+
+    public void setVideo(String video) {
+        this.video = video;
+    }
+
+    public String getCaption() {
+        return caption;
+    }
+
+    public void setCaption(String caption) {
+        this.caption = caption;
+    }
+
+    public String getStorePath() {
+        return storePath;
+    }
+
+    public void setStorePath(String storePath) {
+        this.storePath = storePath;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
     @Override
     public String toString() {
         return "VideoCaptions{" +

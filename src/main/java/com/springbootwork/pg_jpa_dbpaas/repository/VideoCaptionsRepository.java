@@ -14,4 +14,5 @@ public interface VideoCaptionsRepository extends JpaRepository<VideoCaptions, In
 
     List<VideoCaptions> findAllByDate(LocalDate date);
 
+
 }
