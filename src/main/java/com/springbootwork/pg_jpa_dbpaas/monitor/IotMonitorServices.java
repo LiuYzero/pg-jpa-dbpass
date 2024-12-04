@@ -34,7 +34,7 @@ public class IotMonitorServices {
 
     public void monitorReport(){
         JSONObject monitorData = getJVMInfo();
-        logger.info("monitorData: {}", monitorData);
+        logger.debug("monitorData: {}", monitorData);
         Boolean flag = insertData(monitorData);
     }
 
