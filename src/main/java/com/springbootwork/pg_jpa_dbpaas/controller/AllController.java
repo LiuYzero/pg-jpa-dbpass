@@ -2,14 +2,16 @@ package com.springbootwork.pg_jpa_dbpaas.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.springbootwork.pg_jpa_dbpaas.entity.ResponseResult;
+import com.springbootwork.pg_jpa_dbpaas.entity.TranslateEntity;
+import com.springbootwork.pg_jpa_dbpaas.service.TranslateService;
 import com.springbootwork.pg_jpa_dbpaas.service.business.ResourceServices;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.time.LocalDate;
+import java.util.List;
 
 @RestController
 @RequestMapping(path="/pg")
@@ -19,11 +21,14 @@ public class AllController {
     @Resource
     ResourceServices resourceServices;
 
+    @Resource
+    TranslateService translateService;
+
 
     @PostMapping(path = "/VideoCaptions/insert")
-    public ResponseResult insertVideoCaptions(JSONObject data){
+    public ResponseResult insertVideoCaptions(@RequestBody JSONObject data){
         logger.info("enter insertVideoCaptions {}.",data);
-
+        translateService.save(data);
         return ResponseResult.success();
     }
 
@@ -33,5 +38,20 @@ public class AllController {
         ResponseResult responseResult = ResponseResult.success();
         responseResult.setData(data);
         return responseResult;
+    }
+
+    @PostMapping(path = "/translate/save")
+    public ResponseResult saveTranslate(@RequestBody JSONObject data){
+        logger.info("enter saveTranslate {}.",data);
+        TranslateEntity translate = data.toJavaObject(TranslateEntity.class);
+        translateService.save(translate);
+        return ResponseResult.success();
+    }
+
+    @PostMapping(path = "/translate/queryByDate")
+    public ResponseResult queryTranslate(@RequestBody JSONObject data){
+        logger.info("enter queryTranslate {}.",data);
+        List<TranslateEntity> translateEntities = translateService.findByDate(data);
+        return ResponseResult.success(translateEntities);
     }
 }

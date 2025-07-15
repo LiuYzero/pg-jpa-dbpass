@@ -20,6 +20,14 @@ public class ResponseResult<T> {
         return responseResult;
     }
 
+    public static ResponseResult success(Object data){
+        ResponseResult responseResult = new ResponseResult();
+        responseResult.setCode(ResultCode.SUCCESS.getCode());
+        responseResult.setMessage(ResultCode.SUCCESS.getMessage());
+        responseResult.setData(data);
+        return responseResult;
+    }
+
     public static ResponseResult faild(){
         ResponseResult responseResult = new ResponseResult();
         responseResult.setCode(ResultCode.FAILD.getCode());
